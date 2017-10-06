@@ -1,7 +1,5 @@
 # API doc
 
-## Install
-
 ### how to install and run apidoc
 ```
 $ npm install apidoc
