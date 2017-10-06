@@ -1,0 +1,26 @@
+{
+  "name": "apidoc",
+  "version": "0.1.0",
+  "description": "소개팅 앱 restful API",
+  "title": "소개팅 앱 restful API",
+  "url" : "https://api.github.com/v1",
+  "sampleUrl": "https://api.github.com/v1",
+  "header": {
+    "title": "처음으로 이동",
+    "filename": "header.md"
+  },
+  "footer": {
+    "title": "마지막으로 이동",
+    "filename": "footer.md"
+  },
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  },
+  "order": [
+    "Error",
+    "Define",
+    "PostTitleAndError",
+    "PostError"
+  ]
+}
