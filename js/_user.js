@@ -61,7 +61,7 @@
 
 
  /**
- * @api {post} /users 사용자 계정탈퇴
+ * @api {delete} /users 사용자 계정탈퇴
  * @apiVersion 0.1.0
  * @apiName DeleteUser
  * @apiGroup User
