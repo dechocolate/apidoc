@@ -1,10 +1,10 @@
 {
   "name": "apidoc",
   "version": "0.1.0",
-  "description": "소개팅 앱 restful API",
-  "title": "소개팅 앱 restful API",
-  "url" : "https://api.github.com/v1",
-  "sampleUrl": "https://api.github.com/v1",
+  "description": "smim 소개팅 앱 restful API",
+  "title": "smim 소개팅 앱 restful API",
+  "url" : "http://52.231.200.170:8080",
+  "sampleUrl": "http://52.231.200.170:8080",
   "header": {
     "title": "처음으로 이동",
     "filename": "header.md"
