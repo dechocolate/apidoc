@@ -15,10 +15,24 @@
  *
  * @apiParam {String} id 		   userId	.
  *
- * @apiSuccess {String} id         userId.
- * @apiSuccess {Date}   name       Fullname of the User.
- *
+ * @apiSuccess {String} id              report id 
+ * @apiSuccess {String} userid          신고자 사용자 아이디.
+ * @apiSuccess {Text}   contents        신고 내용.
+ * 
+ * @apiSuccessExample {json} Success-Response:
+ * HTTP/1.1 200 OK
+ * {
+ *   count  : "REPORT COUNT",
+ *      [
+ *          { id : "REPORT_ID", userid : "USER_ID", contents : "CONTENTS"},
+ *          { id : "REPORT_ID", userid : "USER_ID", contents : "CONTENTS"},
+ *          { id : "REPORT_ID", userid : "USER_ID", contents : "CONTENTS"}
+ *      ]  
+ * }
+ * 
  * @apiError UserNotFound   The <code>id</code> of the User was not found.
+ * 
+ * 
  */
 
 
@@ -40,7 +54,7 @@
  * @apiParam {String} id 		   userId	.
  *
  * @apiSuccess {String} id         userId.
- * @apiSuccess {Date}   name       Fullname of the User.
+ * @apiSuccess {Text}   contents   신고 내용.
  *
  * @apiError UserNotFound   The <code>id</code> of the User was not found.
  */
